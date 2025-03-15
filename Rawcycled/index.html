@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoShop - Sustainable Products for a Better Planet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-leaf"></i> Versaco</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="fashion.html">Fashion</a></li>
+                    <li><a href="chemical.html">Chemical</a></li>
+                    <li><a href="daily.html">Daily</a></li>
+                    <li><a href="Suppliers.html">Suppliers</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon"><i class="fas fa-user"></i></a>
+                <a href="#" class="icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sustainable Living Made Easy</h1>
+                <p>Explore eco-friendly products designed to protect our planet.
+                    Sustainable, high-quality, and made with care for a greener future.
+                    Make conscious choices without compromising on performance or style.
+                    Join us in creating a cleaner, healthier world—one product at a time.</p>
+                <div class="hero-buttons">
+                    <a href="#featured" class="btn btn-primary">Shop Now</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <div class="container">
+            <h2 class="section-title">Featured Categories</h2>
+            <div class="category-grid">
+                <a href="fashion.html" class="category-card">
+                    <div class="category-img" style="background-image: url('/api/placeholder/500/300');">
+                        <div class="category-overlay">
+                            <h3>Sustainable Fashion</h3>
+                            <p>Ethically made clothing from eco-friendly materials</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="chemical.html" class="category-card">
+                    <div class="category-img" style="background-image: url('/api/placeholder/500/300');">
+                        <div class="category-overlay">
+                            <h3>Natural Chemicals</h3>
+                            <p>Non-toxic cleaning and personal care products</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="daily.html" class="category-card">
+                    <div class="category-img" style="background-image: url('/api/placeholder/500/300');">
+                        <div class="category-overlay">
+                            <h3>Daily Essentials</h3>
+                            <p>Everyday items with minimal environmental impact</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bestsellers">
+        <div class="container">
+            <h2 class="section-title1">Bestselling Products </h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="img/images.jpg" alt="Bamboo Toothbrush">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bamboo Toothbrush</h3>
+                        <div class="product-category">Daily</div>
+                        <div class="product-price">$5.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge bestseller">Bestseller</div>
+                    <div class="product-img">
+                        <img src="img/black-one.jpg" alt="Hemp T-Shirt">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Hemp T-Shirt</h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">$24.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(87)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-img">
+                        <img src="img/moringa.jpg" alt="All-Purpose Cleaner">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Moringa</h3>
+                        <div class="product-category">Chemical</div>
+                        <div class="product-price">
+                            <span class="old-price">$12.99</span>
+                            $9.99
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(36)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/cotton2.jpg" alt="Reusable Bags">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Cotton Produce Bags (Set of 5)</h3>
+                        <div class="product-category">Daily</div>
+                        <div class="product-price">$15.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(124)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-outline">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    
+                    
+                    <div class="eco-badges">
+                        <div class="eco-badge">
+                            <i class="fas fa-recycle"></i>
+                            <span>Sustainable Materials</span>
+                        </div>
+                        <div class="eco-badge">
+                            <i class="fas fa-leaf"></i>
+                            <span>Eco-Friendly</span>
+                        </div>
+                        <div class="eco-badge">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <span>Ethically Sourced</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title2">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"I've been searching for eco-friendly alternatives to everyday products, and EcoShop has everything I need in one place. The quality is excellent!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah J.</h4>
+                            <div class="author-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"The natural cleaning products are amazing! No harsh chemicals but they work just as well. My home feels cleaner and I feel better about my environmental impact."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael T.</h4>
+                            <div class="author-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Sustainable Community</h2>
+                <p>Sign up for our newsletter to receive eco-tips, exclusive offers, and updates on new products.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-leaf"></i> Versaco</h3>
+                    <p>Making sustainable living accessible and affordable for everyone.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="fashion.html">Fashion</a></li>
+                        <li><a href="chemical.html">Chemical</a></li>
+                        <li><a href="daily.html">Daily</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability Commitment</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+                <p>&copy; 2025 EcoShop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

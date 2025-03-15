@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Fashion - Versaco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-leaf"></i> Versaco</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fashion.html" class="active">Fashion</a></li>
+                    <li><a href="chemical.html">Chemical</a></li>
+                    <li><a href="daily.html">Daily</a></li>
+                    <li><a href="Suppliers.html">Suppliers</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon"><i class="fas fa-user"></i></a>
+                <a href="#" class="icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="category-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Sustainable Fashion</h1>
+                <p>Eco-friendly, ethical clothing and accessories that look good and do good</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-filters">
+        <div class="container">
+            <div class="filter-wrapper">
+                <div class="active-filters">
+                    <span class="filter-count">12 Products</span>
+                </div>
+                <div class="filter-controls">
+                    <div class="filter-dropdown">
+                        <button class="filter-btn"><i class="fas fa-filter"></i> Filter</button>
+                        <div class="dropdown-content">
+                            <div class="filter-group">
+                                <h4>Material</h4>
+                                <div class="filter-options">
+                                    <label><input type="checkbox"> Organic Cotton</label>
+                                    <label><input type="checkbox"> Hemp</label>
+                                    <label><input type="checkbox"> Bamboo</label>
+                                    <label><input type="checkbox"> Recycled Polyester</label>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <h4>Price</h4>
+                                <div class="filter-options">
+                                    <label><input type="checkbox"> Under $25</label>
+                                    <label><input type="checkbox"> $25 - $50</label>
+                                    <label><input type="checkbox"> $50 - $100</label>
+                                    <label><input type="checkbox"> Over $100</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sort-dropdown">
+                        <button class="sort-btn">Sort By: Featured <i class="fas fa-chevron-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Featured</a>
+                            <a href="#">Price: Low to High</a>
+                            <a href="#">Price: High to Low</a>
+                            <a href="#">Newest</a>
+                            <a href="#">Best Selling</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-listings">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-badge bestseller">Bestseller</div>
+                    <div class="product-img">
+                        <img src="img/hemp.jpg" alt="Hemp T-Shirt">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Hemp </h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">$32.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(87)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/9501-CPD-21_16x9-our-cotton-explained.jpg">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Recycled Cotton</h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">$8.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="img/linen.jpg" alt="Bamboo Socks">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Linen (3-Pack)</h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">$18.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(28)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/polyster.jpg" alt="Linen Button-Up Shirt">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic polyster</h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">$45.99</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(16)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge sale">Sale</div>
+                    <div class="product-img">
+                        <img src="img/tencel.jpg" alt="Cork Wallet">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic tencel</h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">
+                            <span class="old-price">$9.99</span>
+                            $29.99
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(56)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/econyl.jpg" alt="Recycled Sweater">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Econyl</h3>
+                        <div class="product-category">Fashion</div>
+                        <div class="product-price">$10</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(32)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- More products would go here -->
+            </div>
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#" class="next">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Sustainable Community</h2>
+                <p>Sign up for our newsletter to receive eco-tips, exclusive offers, and updates on new products.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-leaf"></i> EcoShop</h3>
+                    <p>Making sustainable living accessible and affordable for everyone.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="fashion.html">Fashion</a></li>
+                        <li><a href="chemical.html">Chemical</a></li>
+                        <li><a href="daily.html">Daily</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability Commitment</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+                <p>&copy; 2025 EcoShop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
